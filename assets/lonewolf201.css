@@ -1,0 +1,109 @@
+.lycan-bar{
+    background-color: #0f0f0f90;
+    height: 75px;
+    color:white;
+    font-weight: bolder;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top: 1px solid #3f3f3f;
+    border-right:1px solid #3f3f3f;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    z-index: 999;
+}
+.lycan-bar .lycan-tab-group{
+    padding-inline-start: 5px;
+    padding-inline-end: 15px;
+    text-align: center!important;
+    top: 50%;
+    position: relative;
+    transform: translate(0,-50%);
+}
+
+.lycan-bar .lycan-tab-group .lycan-tabs{
+    z-index: 9999;
+    padding-right: 30px;
+    padding-left: 30px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 25px;
+    background-color: #0f0f0f;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.lycan-bar .lycan-tab-group .lycan-tabs.selected{
+    border-top: 1px solid #3f3f3f;
+    border-right:1px solid #3f3f3f;
+}
+.comming-soon{
+    top:150px;
+    margin: 10px;
+    position: absolute;
+    height: auto;
+    text-align: center;
+}
+
+.rectangle, .circle {
+    z-index: 9;
+    pointer-events: none;
+    position: relative;
+    width: 1825px;
+    height: 128px;
+    margin: 1px;
+    background-color: currentColor;
+    font-size: 14px;
+}
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image:url("/assets/images/background.png");
+}
+.square{
+    color: #121212;
+    pointer-events: none;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    background-color: currentColor;
+    font-size: 14px;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shadow {
+    position: absolute;
+    opacity: .2;
+}
+
+.comming-soon .banner-label{
+    color: white;
+    font-size: 50px;
+    position: fixed;
+    top: 35%;
+    left: 38%;
+    z-index: 10;
+}
+.hide{
+    display: none;
+}
+.route-body{
+    color: white;
+}
+.display-inline{
+    display: inline;
+}
+.story-board{
+    border-radius: 10px;
+    height: 650px;
+    width: 850px;
+    background-image: linear-gradient(to top, #0f0f0f80, #00000080);;
+    left: 13%;
+    position: absolute;
+    top: 10%;
+    border: blanchedalmond 1pxsolid ;
+}
